@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Jurnal02 {
 
     public static void main(final String[] args) {
-        // Kerjakan soalnya di sini
+        // Kerjakan soalnya di sini 
         Scanner input = new Scanner(System.in);
 
         int n = input.nextInt();
