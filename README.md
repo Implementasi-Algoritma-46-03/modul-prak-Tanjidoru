@@ -1,8 +1,8 @@
 ## Identitas
 
-Nama : Ali Ghimar Budiana
+Nama: Ali Ghimar Budiana
 
-NIM  : 607062500004
+NIM : 607062500004
 
 ## Instruksi
 
