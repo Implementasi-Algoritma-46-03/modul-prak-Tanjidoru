@@ -21,7 +21,7 @@ public class Jurnal02 {
         double besarPajak = juta * pajak;
         double hasilBersih = juta - besarPajak;
         System.out.println("Penghasilan kotor = " + n + " juta Rupiah");
-        System.out.println("pajak " + (int)(pajak * 100) + "% = Rp. " + (int)besarPajak);
+        System.out.println("Pajak " + (int)(pajak * 100) + "% = Rp. " + (int)besarPajak);
         System.out.println("Penghasilan bersih = Rp. " + (int)hasilBersih);
 
         
