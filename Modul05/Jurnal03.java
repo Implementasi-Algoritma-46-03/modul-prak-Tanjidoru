@@ -4,19 +4,26 @@ public class Jurnal03 {
     public static void main(final String[] args) {
         // Kerjakan soalnya di sini
         Scanner input = new Scanner(System.in);
-        int a = input.nextInt();
-        char c = scanner.next().charAt(0);
-        int o = input.nextInt();
+        double a = input.nextInt();
+        char c = input.next().charAt(0);
+        double o = input.nextInt();
 
-        int hasil = 0;
         switch (c) {
             case '+':
-                hasil = a + o;
+                System.out.println((int)a + o);
                 break;
-            case ''
-
+            case '-':
+                System.out.println((int)a - o);
+                break;
+            case '/':
+                double hitungBagi = a / o;
+                System.out.printf("%.7f", hitungBagi);
+                break;
+            case '*':
+                System.out.println((int)a * o);
+                break;
+            default:
+                break;
         }
-
-
     }
 }
