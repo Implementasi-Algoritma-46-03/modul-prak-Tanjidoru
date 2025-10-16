@@ -13,7 +13,7 @@ public class Jurnal03 {
                 System.out.println((int)a + o);
                 break;
             case '-':
-                System.out.println((int)a - o);
+                System.out.println((int)a - o); 
                 break;
             case '/':
                 double hitungBagi = a / o;
