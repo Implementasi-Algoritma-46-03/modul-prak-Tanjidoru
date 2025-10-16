@@ -58,7 +58,7 @@ public class Jurnal02 {
             case 6:
                 namaHari = "Sabtu";
                 break;
-            case 7:
+            case 0:
                 namaHari = "Minggu";
                 break;
             default:
