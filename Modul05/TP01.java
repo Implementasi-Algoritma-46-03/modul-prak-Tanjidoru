@@ -36,7 +36,7 @@ public class TP01 {
                 bulanPrancis = "septembre";
                 break;
             case "oktober":
-                bulanPrancis = "octobre";
+                bulanPrancis = "oktobre";
                 break;
             case "november":
                 bulanPrancis = "novembre";
