@@ -12,7 +12,7 @@ public class TP01 {
                 bulanPrancis = "janvier";
                 break;
             case "februari":
-                bulanPrancis = "février";
+                bulanPrancis = "fevrier";
                 break;
             case "maret":
                 bulanPrancis = "mars";
@@ -30,7 +30,7 @@ public class TP01 {
                 bulanPrancis = "juillet";
                 break;
             case "agustus":
-                bulanPrancis = "août";
+                bulanPrancis = "aout";
                 break;
             case "september":
                 bulanPrancis = "septembre";
@@ -42,7 +42,7 @@ public class TP01 {
                 bulanPrancis = "novembre";
                 break;
             case "desember":
-                bulanPrancis = "décembre";
+                bulanPrancis = "decembre";
                 break;
             default:
                 bulanPrancis = "Bulan tidak dikenal"; 
