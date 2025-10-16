@@ -14,25 +14,25 @@ public class TP02 {
         String namaHari;
         switch (sisa) {
             case 1:
-                namaHari = "Lundi";
+                namaHari = "lundi";
                 break;
             case 2:
-                namaHari = "Mardi";
+                namaHari = "mardi";
                 break;
             case 3:
-                namaHari = "Mercredi";
+                namaHari = "mercredi";
                 break;
             case 4:
-                namaHari = "Jeudi";
+                namaHari = "jeudi";
                 break;
             case 5:
-                namaHari = "Vendredi";
+                namaHari = "vendredi";
                 break;
             case 6:
-                namaHari = "Samedi";
+                namaHari = "samedi";
                 break;
             case 7:
-                namaHari = "Dimanche";
+                namaHari = "dimanche";
                 break;
             default:
                 namaHari = "Hari tidak ditemukan";
