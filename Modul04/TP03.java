@@ -2,30 +2,20 @@ import java.util.Scanner;
 public class TP03 {
 
     public static void main(final String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int nilaiDira = scanner.nextInt();
-        int nilaiRadi = scanner.nextInt();
-        int nilaiIdar = scanner.nextInt();
+        // Kerjakan soalnya di sini
+        Scanner input = new Scanner(System.in);
 
-        if (nilaiDira > nilaiRadi && nilaiDira > nilaiIdar) {
-            System.out.println("Dira");
-        } else if (nilaiRadi > nilaiDira && nilaiRadi > nilaiIdar) {
-            System.out.println("Radi");
-        } else {
-            System.out.println("Idar");
-        }
+        int d = input.nextInt();
+        int r = input.nextInt();
+        int i = input.nextInt();
 
-        scanner.close();
-        Scanner s = new Scanner(System.in);
-        int d = s.nextInt();
-        int r = s.nextInt();
-        int i = s.nextInt();
+        if (d>r && d>i)
+        System.out.println("Dira");
 
-        if (d > r && d > i)
-            System.out.println("Dira");
-        else if (r > d && r > i)
-            System.out.println("Radi");
-        else
-            System.out.println("Idar");
+        else if (r>d && r>i)
+        System.out.println("Radi");
+
+        else if (i>d && i>r)
+        System.out.println("Idar");
     }
 }

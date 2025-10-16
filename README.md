@@ -1,8 +1,8 @@
 ## Identitas
 
-Nama: Pasya Muhammad Rizky
+Nama: Ali Ghimar Budiana
 
-NIM : 607062500047
+NIM : 607062500004
 
 ## Instruksi
 
