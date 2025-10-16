@@ -41,25 +41,25 @@ public class Jurnal02 {
     String namaHari;
         switch (harinya) {
             case 1:
-                namaHari = "senin";
+                namaHari = "Senin";
                 break;
             case 2:
-                namaHari = "selasa";
+                namaHari = "Selasa";
                 break;
             case 3:
-                namaHari = "rabu";
+                namaHari = "Rabu";
                 break;
             case 4:
-                namaHari = "kamis";
+                namaHari = "Kamis";
                 break;
             case 5:
-                namaHari = "jumat";
+                namaHari = "Jumat";
                 break;
             case 6:
-                namaHari = "sabtu";
+                namaHari = "Sabtu";
                 break;
             case 7:
-                namaHari = "minggu";
+                namaHari = "Minggu";
                 break;
             default:
                 namaHari = "Hari tidak ditemukan";
