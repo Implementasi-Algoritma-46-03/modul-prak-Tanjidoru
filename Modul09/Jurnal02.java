@@ -8,7 +8,7 @@ public class Jurnal02 {
 
         int hasil = 0;
         for (int i =1; i <= batas; i += 2) {
-            hasil += i;
+            hasil += i; 
         }
         System.out.println(hasil);
     } 
