@@ -19,5 +19,5 @@ public class Jurnal03 {
             hasil = "BUKAN";
 
         System.out.println(hasil);
-    }
+    } 
 }

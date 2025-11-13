@@ -11,5 +11,5 @@ public class Jurnal02 {
             hasil += i;
         }
         System.out.println(hasil);
-    }
+    } 
 }
