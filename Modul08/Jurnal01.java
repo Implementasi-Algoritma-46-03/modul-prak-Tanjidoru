@@ -5,18 +5,15 @@ public class Jurnal01 {
         // Kerjakan soalnya di sini
 		Scanner sc = new Scanner(System.in);
 
-        int r = sc.nextInt();
-        int n = sc.nextInt();
-
-        double sisaMassa = (double) r;
-        int hari = 0;
-
-        while (hari < n) {
-            sisaMassa = sisaMassa / 2.0;
-            hari = hari + 10;
-        }
-
-        System.out.printf("%.3f\n", sisaMassa);
+		double zat = sc.nextDouble();
+		int hari = sc.nextInt();
+		
+		while (hari != 0) {
+			zat /= 2;
+			hari -= 10;
+			}
+			
+			System.out.printf("%.3f", zat);
     }
 }
     
