@@ -3,7 +3,7 @@ public class Jurnal03 {
 
     public static void main(final String[] args) {
         // Kerjakan soalnya di sini
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); 
 
         ArrayList<Integer> hasilangka = new ArrayList<Integer>();
         int angka = 0;
