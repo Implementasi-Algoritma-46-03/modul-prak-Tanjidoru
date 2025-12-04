@@ -4,19 +4,14 @@ public class Jurnal02 {
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int inputan = sc.nextInt();
-        int [][] papan = new int[inputan][inputan];
-
-        boolean tictactoe = false;
+        int[][] papan = new int[inputan][inputan];
 
         // input papan
         for (int i = 0; i < inputan; i++) {
             for (int j = 0; j < inputan; j++) {
                 papan[i][j] = sc.nextInt();
-                if (papan[i][j] == 0){
-                    tictactoe = true;
                 }
             }
-        }
 
         // cek baris
         for (int i = 0; i < inputan; i++){
