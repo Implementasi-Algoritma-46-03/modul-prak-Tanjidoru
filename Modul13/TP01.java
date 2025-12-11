@@ -4,50 +4,41 @@ public class TP02 {
 
     public static void main(final String[] args) {
         // Kerjakan soalnya di sini
-        Scanner s = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
+        double[] data1 = new double[10];
+        double[] data2 = new double[10];
 
-        int n = 10; 
-        
-        double[] gel1 = new double[n];
-        double[] gel2 = new double[n];
-
-        for (int i = 0; i < n; i++) {
-            gel1[i] = s.nextDouble();
+        for (int i = 0; i < data1.length; i++) {
+            data1[i] = input.nextDouble();
+        }
+        for (int i = 0; i < data1.length; i++) {
+            data2[i] = input.nextDouble();
         }
 
-        for (int i = 0; i < n; i++) {
-            gel2[i] = s.nextDouble();
-        }
-
-        for (int i = 1; i < n; i++) {
-            double kunci = gel1[i];
-            int j = i;
-
-            for (; j > 0 && gel1[j - 1] < kunci; j--) {
-                gel1[j] = gel1[j - 1];
-            }
-            gel1[j] = kunci;
-        }
-
-        for (int i = 1; i < n; i++) {
-            double kunci = gel2[i];
-            int j = i;
-
-            for (; j > 0 && gel2[j - 1] < kunci; j--) {
-                gel2[j] = gel2[j - 1];
-            }
-            gel2[j] = kunci;
-        }
-
-        for (int i = 0; i < n; i++) {
-            System.out.printf("%.2f", gel1[i]);
-            if (i < n - 1) System.out.print(" ");
-        }
+        double[] hasil1 = urutin(data1);
         System.out.println();
-
-        for (int i = 0; i < n; i++) {
-            System.out.printf("%.2f", gel2[i]);
-            if (i < n - 1) System.out.print(" ");
+        double[] hasil2 = urutin(data2);
         }
+
+    private static double[] urutin(double[] data) {
+        for (int i = 0; i < data.length - 1; i++) {
+            for (int j = 0; j< data.length - 1 - i; j++) {
+                if (data[j + 1] < data[j]) {
+                    double temp = data[j];
+                    data[j] = data[j + 1];
+                    data[j + 1] = temp;
+                }
+            }
+        }
+        for (int i = 0; i < data.length; i++) {
+            if (i > 0) {
+                System.out.print(" ");
+            }
+            System.out.printf("%.2f", data[i]);
+  
+        }
+        return data;
+       
     }
 }
+
